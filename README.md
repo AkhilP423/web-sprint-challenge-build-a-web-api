@@ -147,7 +147,15 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+Node.js is an asynchronous javascript runtime that cane execute outside of a web browser. It allows you to have both the client and server using the same language and allows two machines to share information easier. As it is asynchronous, it eliminates javascript's single thread constraint. Lastly, it has access to npm and npx which are great ways to manage packages. Express provides server-side logic for web applications, and uses middleware to extend its features. One advantage is that it allows you to define routes based on custom urls for your application.
 1. Understand and explain the use of Middleware.
+It is basically a software that provides services to applications outside of whats in the operating system. This includes data management, authentication, and api management.
 1. The basic principles of the REST architectural style.
+The REST architectural style must follow specific guidelines. The servers and clients can be developed independently, but the interface in between cant be changed. No client context can be stored on the server between requests. REST allows you to deploy the API on one server and store data on another. 
 1. Understand and explain the use of Express Routers.
+Express Routers are put into end points to group similar router URL's. When there are several URLs, each one would have its own group of CRUD operations, which would make the file too large.
 1. Describe tooling used to manually test the correctness of an API.
+-Postman lets you check endpoints and crud functionality.
+-Httpie is like postman within a terminal
+-Nodemon lets you test the server in real time
+-Eslint is for finding syntax errors.
