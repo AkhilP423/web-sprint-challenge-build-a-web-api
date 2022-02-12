@@ -1,5 +1,7 @@
 // add middlewares here related to actions
+//page may need some work
 const Action = require('./actions-model')
+//validation code done, error messages are returning on tests
 
 async function validateActionId(req, res, next){
     try{

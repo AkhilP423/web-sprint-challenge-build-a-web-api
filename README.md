@@ -156,6 +156,6 @@ The REST architectural style must follow specific guidelines. The servers and cl
 Express Routers are put into end points to group similar router URL's. When there are several URLs, each one would have its own group of CRUD operations, which would make the file too large.
 1. Describe tooling used to manually test the correctness of an API.
 -Postman lets you check endpoints and crud functionality.
--Httpie is like postman within a terminal
--Nodemon lets you test the server in real time
+-Httpie is like postman within a terminal.
+-Nodemon lets you test the server in real time.
 -Eslint is for finding syntax errors.
